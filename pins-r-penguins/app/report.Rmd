@@ -57,6 +57,6 @@ You can easily read the data into R using pins:
 
 ```{r}
 board |> 
-  pins::pin_read("sam.edwardes/penguins_pins_r_demo") |> 
+  pins::pin_read("katie.masiello/penguins_pins_r_demo") |> 
   dplyr::glimpse()
 ```
